@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) {
+  body {
+    background: #8a51fc;
+  }
+
+  header {
+    display: unset;
+  }
+
+  img {
+    display: block;
+    margin: 12px auto 0;
+    width: 300px;
+  }
+
+  main {
+    width: 375px;
+    margin: 16px auto 64px;
+    border-radius: 20px;
+
+    min-width: unset;
+    min-height: unset;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  button:active {
+    scale: 0.98;
+  }
+}
