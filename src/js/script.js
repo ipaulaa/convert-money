@@ -13,6 +13,8 @@ function convertCurrency(e) {
         valueToConvert,
         valueToConvert * conversionFactor
       );
+
+      value.value = "";
     })
     .catch(err => console.log(err));
 }
