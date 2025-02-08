@@ -42,8 +42,7 @@ function updateCurrencySymbol() {
 
 async function fetchCurrency(currencyCode) {
   const res = await fetch(`${API_URL}/${currencyCode}.json`);
-  const json = await res.json();
-  return json;
+  return res.json();
 }
 
 const CURRENCIES = {
